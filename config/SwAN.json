@@ -1,0 +1,109 @@
+{
+  "data_schema": {
+    "feature_group": {
+      "base_features": {
+        "dtype": "float32",
+        "default_value": 0.0,
+        "operator": "bucket",
+        "reshape": false,
+        "dimension": 4,
+        "features": {
+          "distance": [
+            532.2197648377746,
+            1169.4534337834941,
+            2202.4970919630236,
+            4594.079430404011
+          ]
+        }
+      },
+      "user_features": {
+        "dtype": "float32",
+        "default_value": 0.0,
+        "operator": "bucket",
+        "reshape": false,
+        "dimension": 4,
+        "features": {
+          "uservalue": [
+            1.0,
+            2.0
+          ]
+        }
+      },
+      "scene_features": {
+        "dtype": "float32",
+        "default_value": 0.0,
+        "operator": "bucket",
+        "reshape": false,
+        "dimension": 4,
+        "features": {
+          "module_deal_num": [
+            26360.0,
+            71364.0,
+            341981.0,
+            599486.0
+          ]
+        }
+      },
+      "curr_scene": {
+        "dtype": "int64",
+        "default_value": -1,
+        "operator": "raw_numeric",
+        "reshape": false,
+        "dimension": 4,
+        "features": {
+          "module_id": [
+            -1,
+            600004788,
+            9729
+          ]
+        }
+      },
+      "similar_scene": {
+        "dtype": "int64",
+        "default_value": 0,
+        "operator": "raw_numeric",
+        "reshape": false,
+        "dimension": 4,
+        "features": {
+          "same_dining_module_id_1": [
+            0
+          ],
+          "same_dining_module_id_2": [
+            0
+          ]
+        }
+      },
+      "is_similar_scene": {
+        "dtype": "int64",
+        "default_value": 0,
+        "operator": "raw_numeric",
+        "reshape": false,
+        "dimension": 4,
+        "features": {
+          "is_similar_scene_1": [
+            0,
+            1
+          ],
+          "is_similar_scene_2": [
+            0,
+            1
+          ],
+          "is_similar_scene_3": [
+            0,
+            1
+          ]
+        }
+      }
+    },
+    "labels": {
+      "is_click": {
+        "dtype": "int64",
+        "default_value": 0
+      },
+      "is_order": {
+        "dtype": "int64",
+        "default_value": 0
+      }
+    }
+  }
+}

@@ -1,10 +1,12 @@
 # Scene-wise Adaptive Network for Dynamic Cold-start Scenes Optimization in CTR Prediction
 
 ## Model Architecture
-![img.png](model_architecture.png)
+
+<img alt="img.png" src="model_architecture.png" width="600"/>
 
 ## Dynamic Cold-start Scenes
-![img.png](dynamic.png)
+
+<img alt="img.png" src="dynamic.png" width="1000"/>
 
 ## Project structure
 ```

@@ -3,7 +3,7 @@
 ## Model Architecture
 ![img.png](model_architecture.png)
 
-## Dynamic Cold-start Scene
+## Dynamic Cold-start Scenes
 ![img.png](dynamic.png)
 
 ## Project structure

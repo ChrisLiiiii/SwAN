@@ -15,7 +15,6 @@
         ├── data_2
     ├── train
         ├── data_1
-├── model
 ├── scripts
     ├── SwAN.py
 ├── utils

@@ -8,6 +8,10 @@
 
 <img alt="img.png" src="dynamic.png" width="1000"/>
 
+## Experiments
+
+<img alt="img.png" src="experiments.png" width="1000"/>
+
 ## Project structure
 ```
 ├── config

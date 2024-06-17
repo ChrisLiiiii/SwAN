@@ -10,7 +10,7 @@
 
 ## Experiments
 
-<img alt="img.png" src="experiments.png" width="1000"/>
+<img alt="img.png" src="experiments.png" width="600"/>
 
 ## Project structure
 ```
